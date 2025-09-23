@@ -4,11 +4,11 @@ This repository contains the code and files for a simulation of transposable ele
 
 The goal of this project is to simulate transposable element (TE) dynamics and changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. This simulation models changing demographies by introducing a population bottleneck at generation 626. For more information please see the project_write_up file.
 
-<br><br>
+<br>
 ## Table of Contents
-**run_maize_te_sim.sh:** The bash script used for running simulations as an array job.<br>
-**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.<br>
-**sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].<br>
+**run_maize_te_sim.sh:** The bash script used for running simulations as an array job.<br><br>
+**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.<br><br>
+**sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].<br><br>
 **project_write_up:** A project write up explaining the simulation design choices, and parameters.
 
 ## How to run
