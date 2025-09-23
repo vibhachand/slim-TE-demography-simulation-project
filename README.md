@@ -7,8 +7,8 @@ The goal of this project is to simulate transposable element (TE) dynamics and c
 <br><br>
 ## Table of Contents
 **run_maize_te_sim.sh:** The bash script used for running simulations as an array job.<br>
-**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.
-**sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].
+**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.<br>
+**sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].<br>
 **project_write_up:** A project write up explaining the simulation design choices, and parameters.
 
 ## How to run
