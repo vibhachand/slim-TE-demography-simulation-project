@@ -1,13 +1,13 @@
 # slim-TE-demography-simulation-project
 
-This repository contains files for a simulation of transposable element dynamics under changing demography in maize. This simulation is made using SLiM, a population genetics software created by the Messer Lab that comes with features useful for building population genetics simulations. See more at: https://messerlab.org/slim/<br>
+This repository contains the code and files for a simulation of transposable element dynamics under changing demography in maize. This simulation is made using SLiM, a population genetics software created by the Messer Lab that comes with features useful for building population genetics simulations. Read more about SliM at: https://messerlab.org/slim/<br>.
 
-The goal of this project is to simulate transposable element (TE) dynamics and changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. This simulation models changing demographies by introducing a population bottleneck at generation 626.
+The goal of this project is to simulate transposable element (TE) dynamics and changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. This simulation models changing demographies by introducing a population bottleneck at generation 626. For more information please see the project_write_up file.
 
 <br><br>
 ## Table of Contents
 **run_maize_te_sim.sh:** The bash script used for running simulations as an array job.<br>
-**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies. For more information please see the project_write_up file.
+**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.
 **sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].
 **project_write_up:** A project write up explaining the simulation design choices, and parameters.
 
