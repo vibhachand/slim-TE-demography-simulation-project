@@ -10,10 +10,10 @@ The goal of this project is to simulate transposable element (TE) dynamics and c
 **te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.<br><br>
 **sim_configurations.txt:** An array jobs configurations file that specifies the values of [blank], the population bottleneck size, and [blank].<br><br>
 **project_write_up:** A project write up explaining the simulation design choices, and parameters.<br><br>
-**output_parser.R**: Parses the slim scripts output for excel files
+**output_parser.R**: Extracts and organizes simulation results into an Excel spreadsheet.
 
 ## How to run
-This project also requires the installation of SliM version 4 or higher.
+This project requires the installation of SliM version 4 or higher.
 
 1. Load Conda in your SLURM environment
 ```
