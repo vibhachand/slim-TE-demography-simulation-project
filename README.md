@@ -12,7 +12,7 @@ The goal of this project is to simulate transposable element (TE) dynamics and c
 **project-write-up:** This document explains the simulation objective, design choices, and parameters.<br><br>
 **output_parser.R**: Extracts and organizes simulation results into an Excel spreadsheet.
 
-## How to run
+## How to Run
 This project requires the installation of SliM version 4 or higher.
 
 1. Load Conda in your SLURM environment
