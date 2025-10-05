@@ -3,7 +3,7 @@
 This repository contains the code and files for a simulation of transposable element (TE) dynamics under changing demography in maize. This simulation is made using SLiM, a population genetics software developed by the Messer Lab that comes with features useful for modeling population genetics. Learn more about SliM at: https://messerlab.org/slim/<br>
 
 ## Project Overview
-The goal of this project is to model how transposable elements evolve and behave under changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. To model changing demographies, a population bottleneck is introduced at cycle 500. Further details about the model design and objective is available in the **project_write_up** file.
+The goal of this project is to model how transposable elements behave under changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. To model changing demographies, a population bottleneck is introduced at cycle 500. Further details about the model design and objective is available in the **project_write_up** file.
 
 
 ## Table of Contents
