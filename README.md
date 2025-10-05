@@ -1,16 +1,17 @@
 # slim-TE-demography-simulation-project
 
-This repository contains the code and files for a simulation of transposable element dynamics under changing demography in maize. This simulation is made using SLiM, a population genetics software created by the Messer Lab that comes with features useful for building population genetics simulations. Read more about SliM at: https://messerlab.org/slim/<br>
+This repository contains the code and files for a simulation of transposable element (TE) dynamics under changing demography in maize. This simulation is made using SLiM, a population genetics software developed by the Messer Lab that comes with features useful for modeling population genetics. Learn more about SliM at: https://messerlab.org/slim/<br>
 
-The goal of this project is to simulate transposable element (TE) dynamics and changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. This simulation models changing demographies by introducing a population bottleneck at generation 500. For more information please see the project_write_up file.
+## Project Overview
+The goal of this project is to model how transposable elements evolve and behave under changing demography during the domestication of maize. In this simulation, the following parameters were added: TE disabling, epigenetic silencing and unsilencing, replication/propagation, and conversion of autonomous TEs to non-autonomous TEs. To model changing demographies, a population bottleneck is introduced at cycle 500. Further details about the model design and objective is available in the **project_write_up** file.
 
 
 ## Table of Contents
-**run_maize_te_sim.sh:** The bash script used for running simulations as an array job.<br><br>
-**te_sim_array_job.slim:** The SLiM simulation script that models transposable element dynamics under changing demographies.<br><br>
-**sim_configurations.txt:** An optional configurations file that specifies the value of the population bottleneck size for each run in the array job.<br><br>
-**project-write-up:** This document explains the simulation objective, design choices, and parameters.<br><br>
-**output_parser.R**: Extracts and organizes simulation results into an Excel spreadsheet.
+**run_maize_te_sim.sh:** Bash script for running simulations as an array job.<br><br>
+**te_sim_array_job.slim:** SLiM simulation script that models TE dynamics under changing demographies.<br><br>
+**sim_configurations.txt:** Optional configurations file for specifying the population bottleneck sizes for each simulation run.<br><br>
+**project-write-up:** Document explaining the simulation's objective, design choices, and parameters.<br><br>
+**output_parser.R**: R script for parsing and organizing simulation results into an Excel spreadsheet.
 
 ## How to Run
 This project requires the installation of SliM version 4 or higher.
@@ -19,11 +20,11 @@ This project requires the installation of SliM version 4 or higher.
 ```
 module load conda
 ```
-2. Activate the Conda environment named `slim`, which has SLiM installed
+2. Activate a Conda environment with SLiM installed
 ```
 conda activate slim
 ```
-3. Run the simulation by submitting the job script:
+3. Run the simulation by submitting a job:
 ```
 sbatch run_maize_te_sim.sh
 ```
