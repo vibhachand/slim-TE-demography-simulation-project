@@ -9,7 +9,7 @@ The goal of this project is to model how transposable elements behave under chan
 ## Table of Contents
 **run_maize_te_sim.sh:** Bash script for running simulations as an array job.<br><br>
 **te_sim_array_job.slim:** SLiM simulation script that models TE dynamics under changing demographies.<br><br>
-**sim_configurations.txt:** Optional configurations file for specifying the population bottleneck sizes for each simulation run.<br><br>
+**sim_configurations.txt:** Configurations file for specifying the population bottleneck sizes for each simulation run.<br><br>
 **project-write-up:** Document explaining the simulation's objective, design choices, and parameters.<br><br>
 **output_parser.R**: R script for parsing and organizing simulation results into an Excel spreadsheet.
 
